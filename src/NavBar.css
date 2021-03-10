@@ -1,0 +1,39 @@
+nav {
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+}
+
+.nav-item {
+  width: 100px;
+  text-align: center;
+}
+
+nav a {
+  color: rgb(72, 72, 255);
+  text-decoration: none;
+}
+
+nav a.active, nav a.active:hover {
+  color: black;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: purple;
+  text-decoration: none;
+}
+
+nav a.active.navbar-brand {
+  color: rgb(72, 72, 255);
+  font-weight: normal;
+}
+
+/* Add spacing on either side of the link text so that when it unwraps it won't spill off the screen */
+.long-link {
+  margin-left: 20px;
+  margin-right: 80px;
+}
+
+/* To stop the link text from wrapping and going onto a new line */
+.long-link a {
+  white-space: nowrap;
+}

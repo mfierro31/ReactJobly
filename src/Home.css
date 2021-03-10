@@ -1,0 +1,18 @@
+.Home {
+  height: 92vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Home-title {
+  font-size: 3em;
+}
+
+.Home-p {
+  font-size: 20px;
+}
+
+.Home-h3 {
+  font-size: 30px;
+}

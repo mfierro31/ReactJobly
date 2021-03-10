@@ -1,0 +1,7 @@
+form.form-inline {
+  justify-content: center;
+}
+
+input.form-control.form-control-lg {
+  width: 80%;
+}
