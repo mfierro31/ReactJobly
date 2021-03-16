@@ -1,0 +1,13 @@
+.SignupForm {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.SignupForm-container {
+  width: 30%;
+}
+
+.form-group {
+  text-align: left;
+}

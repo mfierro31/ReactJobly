@@ -1,0 +1,16 @@
+.Companies {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.Companies-container {
+  width: 70%;
+}
+
+.Companies-loading {
+  height: 92vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

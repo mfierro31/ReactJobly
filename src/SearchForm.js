@@ -15,7 +15,7 @@ const SearchForm = ({ filter }) => {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="form-inline mt-5 mb-3">
+    <form onSubmit={handleSubmit} className="form-inline my-5">
       <input className="form-control form-control-lg flex-grow-1" type="text" placeholder="Enter search term..." value={searchText} onChange={handleChange} />
       <button className="btn btn-lg btn-primary">Submit</button>
     </form>

@@ -1,0 +1,16 @@
+.Jobs {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.Jobs-container {
+  width: 70%;
+}
+
+.Jobs-loading {
+  height: 92vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

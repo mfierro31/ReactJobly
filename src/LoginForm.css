@@ -1,0 +1,13 @@
+.LoginForm {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.LoginForm-container {
+  width: 30%;
+}
+
+.form-group {
+  text-align: left;
+}

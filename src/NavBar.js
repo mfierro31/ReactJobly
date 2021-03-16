@@ -3,16 +3,16 @@ import "./NavBar.css";
 import { NavLink } from "react-router-dom";
 import { Navbar, Nav, NavItem } from "reactstrap";
 
-function NavBar({ loggedIn, currUser, changeLoggedInStatus }) {
+function NavBar({ currUser, logout }) {
   return (
-    <div>
+    <div className="NavBar">
       <Navbar expand="md">
-        <NavLink exact to="/" className="navbar-brand">
+        <NavLink to="/" className="navbar-brand">
           Jobly
         </NavLink>
 
         <Nav className="ml-auto" navbar>
-          {loggedIn ? 
+          {currUser ? 
             <>
               <NavItem>
                 <NavLink to="/companies">Companies</NavLink>
@@ -24,7 +24,8 @@ function NavBar({ loggedIn, currUser, changeLoggedInStatus }) {
                 <NavLink to="/profile">Profile</NavLink>
               </NavItem>
               <NavItem className="long-link">
-                <NavLink onClick={changeLoggedInStatus} to="/logout">Log out {currUser.username}</NavLink>
+                {/* /logout doesn't exist, so instead of going to /logout, we will get redirected to the Home page */}
+                <NavLink onClick={logout} to="/logout">Log out {currUser.username}</NavLink>
               </NavItem>
             </> :
             <>
